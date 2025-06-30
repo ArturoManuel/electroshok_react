@@ -1,0 +1,41 @@
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 32px 0 16px 0;
+  margin-top: 48px;
+  text-align: center;
+  font-size: clamp(0.75rem, 0.5909rem + 0.6061vw, 1rem);
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer h3 {
+  margin-top: 0;
+  color: #ffb300;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.footer section {
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+
+.footer section p:last-child {
+  margin-bottom: 20px;
+}
+
+.footer > p:last-child {
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
